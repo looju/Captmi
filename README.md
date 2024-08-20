@@ -18,14 +18,17 @@ $ npm install
 ### Development
 
 ```bash
-$ npm run dev
+$ npm start
+```
+
+### Development with hot reload
+
+```bash
+$ npx electronmon .
 ```
 
 ### Build
-
+This build utilizes electron forge for distributables. 
 ```bash
-# Build For Windows
-$ npm run build:win
-
-# Build For MacOS
-$ npm run build:mac
+$ npm run make
+```
